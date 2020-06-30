@@ -33,22 +33,22 @@ Following are a few results obtained after training the model for 70 epochs.
 
 Image | Caption 
 --- | --- 
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/beach.jpg" width="400"> | **Generated Caption:** A brown dog is running in the water.
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/image.jpg" width="400"> | **Generated Caption:** A tennis player hitting the ball.
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/child.png" width="400"> | **Generated Caption:** A child in a helmet is riding a bike.
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/street.png" width="400"> | **Generated Caption:** A group of people are walking on a busy street.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/beach.jpg" width="400"> | **Generated Caption:** A brown dog is running in the water.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/image.jpg" width="400"> | **Generated Caption:** A tennis player hitting the ball.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/child.png" width="400"> | **Generated Caption:** A child in a helmet is riding a bike.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/street.png" width="400"> | **Generated Caption:** A group of people are walking on a busy street.
 
 
 On providing an ambiguous image for example a hamsters face morphed on a lion the model got confused but since the data is a bit biased towards dogs hence it captions it as a dog and the reddish pink nose of the hamster is identified as red ball
 
 Image | Caption
 --- | ---
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/9.jpg" width="400"> | **Generated Caption:** A black dog is running through the snow with a red ball.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/9.jpg" width="400"> | **Generated Caption:** A black dog is running through the snow with a red ball.
 
 
 In some cases the classifier got confused and on blurring an image it produced bizzare results
 
 Image | Caption
 --- | ---
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/img1.jpg" width="400"> | **Generated Caption:** A brown dog and a brown dog are playing with a ball in the snow.
-<img src="https://github.com/kakshak07/Image-Captioning/blob/master/test/img1_blur.jpg" width="400"> | **Generated Caption:** A little girl in a white shirt is running on the grass.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/img1.jpg" width="400"> | **Generated Caption:** A brown dog and a brown dog are playing with a ball in the snow.
+<img src="https://github.com/kakshak07/Image-Captioining/blob/master/test/img1_blur.jpg" width="400"> | **Generated Caption:** A little girl in a white shirt is running on the grass.
