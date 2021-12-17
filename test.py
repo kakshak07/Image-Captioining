@@ -20,7 +20,7 @@ def text(img):
 	engine.say(	str(image_captions))
 	engine.runAndWait()
 
-
+# This is the updated file
 if __name__ == '__main__':
 	image = str(sys.argv[1])
 	image = "test/"+image
